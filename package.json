@@ -1,0 +1,26 @@
+{
+  "name": "wjj-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wjj": "index.js"
+  },
+  "keywords": ["vue3","cli","pinia","vite"],
+  "author": "hnustwjj",
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/hnustwjj/wjj-cli"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.7",
+    "mkdirp": "^1.0.4",
+    "open": "^8.4.0"
+  }
+}
